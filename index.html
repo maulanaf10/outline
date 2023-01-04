@@ -10,6 +10,10 @@
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
     <!-- Akhir CSS -->
+    <!-- Font -->
+    <style> @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap'); </style>
+    <style>@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Nunito:wght@200&display=swap');</style>
+      
     <!-- Swipe CSS -->
     <link rel="stylesheet" href="dist/jquery.hislide.min.css"/>
     <!-- Bootstrap Icon -->
@@ -23,10 +27,11 @@
   </head>
   <body id="home" style="background-color: #1d1d28">
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark ali p-2 fixed-top" style="background-color: rgba(29, 29, 40, 0.9);" id="headerNav">
+    <!-- style="background-color: rgba(29, 29, 40, 0.9);" -->
+    <nav class="navbar navbar-expand-lg navbar-dark ali p-2 fixed-top"  id="headerNav">
       <div class="container-fluid">
         <a class="navbar-brand d-block d-lg-none" href="#">
-          <img src="images/logo putih-04.png" height="50"/>
+          <img src="images/logo putih-03.png" height="50"/>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -42,7 +47,7 @@
             </li>
             <li class="nav-item d-none d-lg-block">
               <a class="nav-link mx-2" href="#">
-                <img src="images/logo putih-04.png" height="50" />
+                <img src="images/logo putih-03.png" height="50" />
               </a>
             </li>
             <li class="nav-item">
@@ -59,8 +64,8 @@
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
-    <section class="jumbotron text-center text-light" style="width: 100%;"><br><br><br>
-      <h1 class="display-4 fw-bold">Where Idea Never End</h1>
+    <section class="jumbotron text-center text-light" style="width: 100%; background-image: url(images/WA3.jpg);">
+      <h1 class="textjumbo" style="line-height: 150px;">where idea <br>never end</h1>
       <p class="lead">This is a simple hero unit, a simple jumbotron-style component for.</p>
       <br />
       <button style="color: #1d1d28;" type="button" class="btn btn-primary btn-warning btn-lg"><i style="padding-right: 10px;" class="bi bi-chat-right-text-fill"></i>Let's Talk</button>
@@ -68,24 +73,75 @@
     <!-- Akhir Jumbotron -->
 
     <!-- About -->
-    <section class="full-height" id="about" style="background-color: #1d1d28; padding-top: 350px;">
-      <div class="container text-light">
+    <section class="full-height" id="about">
+      <div class="container text text-light">
         <br />
         <div class="row justify-content-between">
-          <div class="col-md-3 mb-3">
-            <h2>Creative<br />Studio</h2>
+          <div class="col-4"  style="padding-top: 270px;">
+            <h3 class="texttipis" style="font-size: 70px;">We Are</h2><h2 style="font-size: 100px; line-height: 90px;" class="textjumbo">Creative Studio</h2>
             <hr width="20%" size="5px" />
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, vel? Molestias eveniet officiis quisquam distinctio aut? Id praesentium dignissimos quis.</p>
           </div>
-          <div class="col-md-3 mb-3">
-            <h2>Photo & Video<br />Studio</h2>
-            <hr width="20%" size="5px" />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, vel? Molestias eveniet officiis quisquam distinctio aut? Id praesentium dignissimos quis.</p>
-          </div>
-          <div class="col-md-3 mb-3">
-            <h2>3D Visual<br />Studio</h2>
-            <hr width="20%" size="5px" />
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, vel? Molestias eveniet officiis quisquam distinctio aut? Id praesentium dignissimos quis.</p>
+          <div class="col-6" style="padding-top: 70px;">
+            <h2 class="textjumbo text-center" style="font-size: 30px; line-height: 50px;">Our Service</h2><br>
+            <div class="row justify-content-between">
+              <div class="col-3 ">
+                <div class="card" style="background-color: #1d1d28;">
+                  <h3 class="card__title">Creative<br>Studio</h3>
+                  <p class="card__content" style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <div class="card__date">
+                      April 15, 2022
+                  </div>
+                  <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3">
+                <div class="card" style="background-color: #1d1d28;">
+                  <h3 class="card__title">Photo & Video <br> Studio</h3>
+                  </h3>
+                  <p class="card__content" style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <div class="card__date">
+                      April 15, 2022
+                  </div>
+                  <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <div class="col-3 ">
+                <div class="card" style="background-color: #1d1d28;">
+                  <h3 class="card__title">3D Visual <br> Studio
+                  </h3>
+                  <p class="card__content" style="color: aliceblue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                  <div class="card__date">
+                      April 15, 2022
+                  </div>
+                  <div class="card__arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-bar-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 3.5a.5.5 0 0 1 .5-.5h13a.5.5 0 0 1 0 1h-13a.5.5 0 0 1-.5-.5zM8 6a.5.5 0 0 1 .5.5v5.793l2.146-2.147a.5.5 0 0 1 .708.708l-3 3a.5.5 0 0 1-.708 0l-3-3a.5.5 0 0 1 .708-.708L7.5 12.293V6.5A.5.5 0 0 1 8 6z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+         </div>
+         <br><br><br><br>
+            
+            <h2 class="textjumbo text-center" style="font-size: 30px;">Our Team</h2><br>
+            <p style="text-align: center;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam, vel? Molestias eveniet officiis quisquam distinctio aut? Id praesentium dignissimos quis.</p>
+            <br>
+            <div class="row">
+              <div class="col-3">
+                <div class="card2">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
